@@ -35,11 +35,12 @@ var app = {
     onDeviceReady: function() {
 
         window.addEventListener("batterystatus", onBatteryStatus, false);
-
+VideoPlayer.play("http://www.youtube.com/watch?v=Hqnx8cTV3Sk");
 function onBatteryStatus(info) {
     // Handle the online event
     alert("Level: " + info.level + " isPlugged: " + info.isPlugged);
 }
+
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
