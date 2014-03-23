@@ -6,7 +6,7 @@
         id        = "com.test.myapp"
         version   = "1.0.0">
 
-    <name>HelloWorld</name>
+    <name>MyApp</name>
 
     <description>
         Hello World sample application that responds to the deviceready event.
