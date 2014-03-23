@@ -36,6 +36,5 @@
 <plugins>
  <plugin name="VideoPlayer" value="com.phonegap.plugins.video.VideoPlayer"/>
 </plugins>
-<gap:plugin name="com.phonegap.plugins.video.VideoPlayer" />
 
 </cordova>
