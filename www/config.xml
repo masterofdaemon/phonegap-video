@@ -17,5 +17,5 @@
     <author href="https://build.phonegap.com" email="support@phonegap.com">
         Serg Koshelev
     </author>
-
+<gap:plugin name="com.phonegap.plugins.video.VideoPlayer" version="2.2.0" />
 </widget>
