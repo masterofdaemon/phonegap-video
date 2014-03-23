@@ -17,6 +17,8 @@
        specific language governing permissions and limitations
        under the License.
 -->
+    <preference name="phonegap-version" value="3.3.0" />
+
 <cordova>
     <!--
     access elements control the Android whitelist.
