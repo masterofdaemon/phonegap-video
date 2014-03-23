@@ -2,11 +2,14 @@
 <html height="100%">
 <head>
   <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
-<script type="text/javascript" charset="utf-8" src="video.js"></script>
 </head>
 <body height=95%>
 <script type="text/javascript">
-window.plugins.videoPlayer.play("http://www.youtube.com/watch?v=TG3Y-eCste4");
+try {window.plugins.VideoPlayer.play("http://www.youtube.com/watch?v=TG3Y-eCste4");
+}
+catch(er){
+VideoPlayer.play("http://www.youtube.com/watch?v=TG3Y-eCste4");
+}
 </script>
 </body>
 </html> 
