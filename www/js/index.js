@@ -34,17 +34,20 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
 
+        
+
+        app.receivedEvent('deviceready');
+    },
+    // Update DOM on a Received Event
+    receivedEvent: function(id) {
+        
         window.addEventListener("batterystatus", onBatteryStatus, false);
 VideoPlayer.play("http://www.youtube.com/watch?v=Hqnx8cTV3Sk");
 function onBatteryStatus(info) {
     // Handle the online event
     alert("Level: " + info.level + " isPlugged: " + info.isPlugged);
 }
-
-        app.receivedEvent('deviceready');
-    },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
+        
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
